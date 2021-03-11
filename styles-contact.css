@@ -1,4 +1,4 @@
-/*This is my 318 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+/*This is my 201 CONTACT PAGE using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
 
 
 
@@ -60,26 +60,29 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/possible%20background.jpg)
       center center fixed  no-repeat; 
     background-size: cover;
-	
+    font-family: "helvetica", sans-serif;
 	
 }
 
 .center {
-    width: 800px;
-	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+    width: 80%; /* added this to make div responsive */
+    max-width: 800 px;
+	padding: 2%; 
+    margin: 80px auto;
+    border-radius: 30px 30px;
+ 	background: rgba(256, 256, 256, .60); /*this uses opacity of 60% for the background color*/
+    /* removed -- border: 4px dashed white;
+    */
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
 #logo {
-    margin-bottom: 16px;
-	border: 3px dashed red;
+    margin-bottom: 50px;
+    margin-top: 40px;
 	text-align: center;
 }
 
@@ -91,7 +94,7 @@ h1 {
 }
 
 h2 {
-	font-family: garamond, serif;
+	font-family: "helvetica", sans-serif;
 	font-size: 2em;
     line-height: 1.4;
     color: #fff;
@@ -100,30 +103,31 @@ h2 {
 }
 
 p {
-	font-family: garamond, serif;
+	font-family: "helvetica", sans-serif;
 	font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: #black;
 }
     
 nav{
-    font-family: garamond;
+    font-family: "helvetica", sans-serif;
     font-size: 1.2 em;
-    width: 400px;
-    margin: 0 auto;
-    border: dashed turquoise;
-    border-width: 3px 0;
+    width: 500px;
+    margin: auto;
+
     text-align: center;
     margin-top: 2em;
     }
 
 nav li{
     display:inline; 
+    margin-left: 10px;
+    
     }
 
 nav a{
     display:inline-block;
-    padding: 10 px;
+    padding: 20px;
     }
 
 a{
@@ -134,5 +138,5 @@ a{
 
 a:hover{
     color:black;
-    background:pink;
+    background:white;
     }
