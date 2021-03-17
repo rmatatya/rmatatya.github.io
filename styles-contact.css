@@ -80,6 +80,12 @@ html, body {
 }
 
    
+img {
+    width: 100%;
+    height: auto;
+    
+}
+
 #logo {
     margin-bottom: 50px;
     margin-top: 40px;
