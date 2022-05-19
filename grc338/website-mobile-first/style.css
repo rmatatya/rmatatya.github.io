@@ -1,0 +1,95 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+img {
+	width: 100%;
+	display: block;
+  
+}
+
+body{
+    background-color: #fafafa; 
+	color: rgb (62, 62, 62); 
+	line-height: 140%; 	
+	font-family: sans-serif; 
+}
+
+h1 {
+   font-family: mrs-eaves-xl-serif, serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+    color: rgb(255,255,255);
+    padding: 2rem 1.5rem .5rem;
+}
+
+
+h2{
+    font-family: mrs-eaves-xl-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    color: #fafafa;
+    padding: 1.5rem 2rem;  
+    background-color: rgb(193, 112, 124);
+    margin-top: inherit;
+}
+
+
+h3{
+    font-family: mrs-eaves-xl-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+/*    padding-left: 1rem;*/
+    color: rgb(193, 112, 124); 
+}
+
+p{
+    font-family: mrs-eaves-xl-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 2em 1em;
+    color: #1e1e1e;
+}   
+
+ul li{
+    font-family: mrs-eaves-xl-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 2em 1em;
+    display: list-item;
+    color: rgb#1e1e1e; 
+    list-style-type: none;
+}
+ol li{
+    font-family: mrs-eaves-xl-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 2em 1em;
+    display: list-item;
+}
+
+section.menu ul li p{
+   margin: 0em;
+}
+
+nav ul li{
+     display: inline;
+    margin-right: inherit;
+     text-transform: uppercase;
+    letter-spacing: 0.05em;
+   
+}
+
+nav ul li a {
+    color:rgb(193, 112, 124);
+    text-decoration: none; 
+}
+
+nav ul li a:hover {
+    color: #222222;
+    
+}
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
