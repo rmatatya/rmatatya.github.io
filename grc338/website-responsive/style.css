@@ -1,0 +1,147 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+img {
+	width: 100%;
+	display: block;
+}
+
+body{
+    background-color: #fafafa; 
+	color: rgb(62,62,62); 
+	line-height: 140%; 	
+	font-family: sans-serif; 
+}
+
+h1 {
+    color: rgb(255,255,255);
+    padding: 2rem 1.5rem .5rem;
+    width: 25em;
+}
+img{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h2{
+    font-family: mrs-eaves-xl-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    color: rgb(193, 112, 124);
+    padding: 1rem; 
+    
+}
+
+
+h3{
+    font-family: mrs-eaves-xl-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+/*    padding-left: 1rem;*/
+    color: rgb(193, 112, 124); 
+}
+
+p{
+    font-family: mrs-eaves-xl-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1e1e1e;
+    margin: .5em 0em 1em;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}   
+
+.bouquetmenu{
+    padding-left: 1rem;
+    
+}
+ul li{
+     font-family: mrs-eaves-xl-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 1em 1em;
+    display: list-item;
+    color: rgb#1e1e1e; 
+    list-style-type: none;
+}
+ol li{
+    font-family: mrs-eaves-xl-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em 2em 1em;
+    display: list-item;
+}
+
+nav{
+    padding-bottom: 1em;
+}
+nav ul li{
+     display: inline;
+    margin-right: inherit;
+     text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+nav ul li a {
+    color:rgb(193, 112, 124);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #222222;    
+}
+
+div.container{
+    max-width: 70em;
+    margin: auto;  
+}
+
+a:link{
+    color: #222222;
+}
+
+@media only screen and (min-width:50em){
+    
+    h2{
+        border-top: solid rgb(193, 112, 124) 2px;
+        border-bottom: solid rgb(193, 112, 124) 2px;  
+    }
+  
+    div.steps{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:5em;
+    }
+    
+    section.home{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1em;
+    }
+    
+    section.homeimage3 {
+        grid-column: 1/3;
+       padding: 0rem; 
+    }
+    
+    section.girl{
+       display:grid;
+        grid-template-columns: 1fr 1fr 1fr;  
+        grid-gap: 1em;
+    }
+    
+   .contactimage{
+      display: grid;
+        grid-template-columns: 1fr 1fr;  
+       grid-gap: 1em;
+    }
+    
+    .about{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+}
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
