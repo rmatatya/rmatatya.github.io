@@ -15,17 +15,21 @@ div.container, div.home-container {
 }
 
 h1 {
-    width: 6rem;
+    width: 12rem;
 }
 
 h2{
     font-weight: bold;
-    font-family: serif;
+    font-family: "baskerville-urw", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 h3{
     font-weight: bold;
-    font-family: serif;
+    font-family: "baskerville-urw", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 a {
@@ -38,7 +42,7 @@ header {
 
 nav {
     padding: 1rem 0;
-    font-family: sans-serif;
+    font-family: "helvetica", sans-serif;
     font-weight: bold;
 }
 
@@ -57,13 +61,13 @@ section.secondary h2 {
 }
 
 section.tertiary h2 {
-    border-top: 1px solid rgb(84, 119, 157);
+    border-top: 1px solid rgb(77, 38, 15);
     padding-top: .5em;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 h2, li a {
-    color: rgb(84, 119, 157);
+    color: rgb(77, 38, 15);
 }
 
 li {
@@ -72,14 +76,14 @@ li {
 
 p {
     color: rgb(34 34 34);
-    font-family: sans-serif;
+    font-family: "helvetica", sans-serif;
     padding-bottom: 1.8rem;
-    line-height: 1.2em;
+    line-height: 1em;
 }
 
 figcaption {
     font-style: italic;
-    font-family: sans-serif;
+    font-family: "helvetica", sans-serif;
     color: rgb(113, 113, 113);
     padding: .5rem 0 1.2rem;
 }
@@ -89,7 +93,7 @@ h2, p, figcaption {
 }
 
 aside {
-    background-color: rgb(204, 201, 257);
+    background-color: rgb(234, 231, 231);
     padding: 1rem .5rem;
 }
 
@@ -103,7 +107,7 @@ article h2 {
 }
 
 footer {
-    background-color: rgb(84, 119, 157);
+    background-color: rgb(77, 38, 9);
     box-sizing: border-box;
 }
 
