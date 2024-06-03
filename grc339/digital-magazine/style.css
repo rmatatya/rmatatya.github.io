@@ -400,3 +400,66 @@ div.subscription li{
     color: rgb(77, 38, 9);
     padding-bottom: .5em;
 }
+
+
+@media screen and (prefers-color-scheme: dark){
+
+    body{
+        background-color: rgb(23, 11, 3);
+        color: rgb(200,188,168);
+    }
+
+    p{
+        color: rgb(234, 231, 231);
+    }
+
+    h2{
+        color: rgb(200,188,168);
+    }
+
+    nav ul li a{
+        color: rgb(234, 231, 231);
+    }
+
+    h1{
+        background-image: url("logo-ALT.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    aside{
+        background-color: rgb(26, 12, 2);
+    }
+
+    footer{
+        background-color: rgb(234, 231, 231);
+    }
+
+    footer p{
+        color: rgb(26, 12, 2);
+    }
+
+    img.logo-light{
+        opacity: 0;
+    }
+
+    .newsletter-h1{
+        color: rgb(234, 231, 231);
+    }
+
+    figcaption{
+        color: rgb(200,188,168);
+    }
+    section.tertiary h2 {
+        border-top: 1px solid rgb(200,188,168);
+    }
+
+    .subscription section {
+            background: rgb(200,188,168);
+
+    }
+
+    .subscription-type{
+        color: rgb(23, 11, 3);
+    }
+}
