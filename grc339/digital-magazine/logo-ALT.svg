@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 211.9 32.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #eae7e7;
+        font-family: Baskerville, Baskerville;
+        font-size: 35px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" y="1.7" width="210" height="30.5"/>
+  <g class="cls-4">
+    <text class="cls-3" transform="translate(0 25.2)"><tspan x="0" y="0">GRO</tspan></text>
+    <text class="cls-2" transform="translate(81.3 25.2)"><tspan x="0" y="0">U</tspan></text>
+    <text class="cls-3" transform="translate(106.5 25.2)"><tspan x="0" y="0">NDED</tspan></text>
+  </g>
+</svg>
